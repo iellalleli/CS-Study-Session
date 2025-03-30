@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm CS Study Session '25</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/png" href="assets/ASCII-icon.png">
+</head>
+<body>
+    <header role="banner">
+        <nav class="navbar navbar-expand-lg navbar-mainbg" role="navigation" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/pup-ascii-logo-with-text.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#speakers">Speakers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#venue">Venue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#schedule">Schedule</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-3">
+                        <button class="btn-nav" onclick="window.location.href='#registration'">Register Now</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-container">
+                <div class="hero-image">
+                    <img src="assets/hero-image.png" alt="Study Session Banner" loading="lazy">
+                </div>
+                <div class="hero-text">
+                    <h2 class="fw-semibold">2025 Midterm</h2>
+                    <h1 class="fw-bold display-4">CS Study Session</h1>
+                    <h3 class="fw-light">April 7-11, 2025 • PUP Bulwagang Balagtas</h3>
+                    <p class="event-details">
+                        Join PUP ASCII's collaborative review sessions designed to help Computer Science students in PUP-Manila prepare for midterms. 
+                        Covering core subjects across all-year levels, these sessions feature interactive discussions, 
+                        problem-solving activities, and valuable resource sharing led by experienced volunteers.
+                    </p>
+                    <div class="hero-buttons">
+                        <a class="btn btn-secondary" href="#about-hr" role="button">About the Event</a>
+                        <a class="btn btn-secondary" href="#schedule" role="button">See Schedule</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <hr id="about-hr">
+            <h2>ABOUT</h2>
+            <div class="about-container">
+                <!-- About the Study Session -->
+                <div class="about-section">
+                    <div class="about-image">
+                        <img src="assets/chill.png" alt="Study Session">
+                    </div>
+                    <div class="about-text">
+                        <h2>About the Study Session</h2>
+                        <p>Midterms are coming! Don’t panic—join our study session for a comprehensive review of all major Computer Science subjects.</p>
+                        <ul>
+                            <li>Guided reviews for major subjects</li>
+                            <li>Peer discussions and collaborative learning</li>
+                            <li>Expert insights and study tips</li>
+                            <li>Confidence boost before midterms!</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- About the Organization -->
+                <div class="about-section reverse">
+                    <div class="about-image">
+                        <img src="assets/3D-logo-ascii.png" alt="ASCII Organization">
+                    </div>
+                    <div class="about-text">
+                        <h2>About PUP ASCII</h2>
+                        <p>PUP ASCII (PUP Association of Students for Computer Intelligence Integration) is a student-led organization dedicated to fostering a culture of learning, collaboration, and innovation in Computer Science.</p>
+                        <ul>
+                            <li>Organizes study sessions and tech workshops</li>
+                            <li>Encourages peer learning and mentorship</li>
+                            <li>Provides resources to help students excel</li>
+                            <li>Connects students with industry professionals</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speakers Section -->
+        <section id="speakers">
+            <h2>Speakers</h2>
+            <div class="speakers-grid">
+                <article class="speaker">
+                    <img src="https://pagesix.com/wp-content/uploads/sites/3/2017/04/ap17115067958125.jpg" alt="Host: Dwayne Stackson">
+                    <h3>Host: Dwayne Stackson</h3>
+                    <p>Senior Software Architect, Rock Solid Systems</p>
+                    <p>Your main host for the event, ensuring smooth execution while keeping the tech talk engaging. With expertise in <strong>Full-Stack Development</strong>, he's built everything from web apps to enterprise software that won’t crash under pressure.</p>
+                </article>
+                <article class="speaker">
+                    <img src="https://awards.adamatoulon.com/images/NOMINEES2021/EmmaWatson2.jpg" alt="Co-Host: Emma Branchson">
+                    <h3>Co-Host: Emma Branchson</h3>
+                    <p>Lead Software Engineer, Recursive Solutions</p>
+                    <p>Guiding you through the conference with expert insights on <strong>Data Structures & Algorithms</strong>. Passionate about clean code, recursion, and ensuring all event pointers lead to a successful experience.</p>
+                </article>        
+                <article class="speaker">
+                    <img src="https://i0.wp.com/bamfstyle.com/wp-content/uploads/2018/02/gf2black3-main1.jpg" alt="Dr. AI Pacino">
+                    <h3>Dr. AI Pacino</h3>
+                    <p>Artificial Intelligence & Machine Learning Pioneer</p>
+                    <p>Exploring <strong>Introduction to Artificial Intelligence</strong> with insights into neural networks, deep learning, and ethical AI. His groundbreaking work has shaped modern AI research.</p>
+                </article>
+                <article class="speaker">
+                    <img src="https://www.oscars.org/sites/oscars/files/honore/jackie-chan.jpg" alt="Prof. Packet Chan">
+                    <h3>Prof. Packet Chan</h3>
+                    <p>Network Security Expert, Fast & Secure Networks Inc.</p>
+                    <p>A specialist in <strong>Data Communications & Networking</strong>, covering TCP/IP protocols, OSI models, and advanced routing techniques. His “Fast & Secure” approach to networking ensures zero lag.</p>
+                </article>
+                <article class="speaker">
+                    <img src="https://goldenglobes.com/wp-content/uploads/2023/11/gettyimages-chris-_evans.jpg" alt="Dr. Phish Evans">
+                    <h3>Dr. Phish Evans</h3>
+                    <p>Cybersecurity Analyst at LockGuard Systems</p>
+                    <p>Specialist in <strong>Information Assurance and Security</strong>, exposing phishing scams, encryption strategies, and why your "123456" password is a bad idea. His research has helped create advanced security protocols used today.</p>
+                </article>
+                <article class="speaker">
+                    <img src="https://www.voici.fr/imgre/fit/~1~voi~2023~11~28~11d7dfb6-06f5-4eaa-b933-ab280d9e3ad2.jpeg/410x410/quality/80/crop-from/center/focus-point/984%2C211/picture.jpeg" alt="Prof. Jennifer Lawgic">
+                    <h3>Prof. Jennifer Lawgic</h3>
+                    <p>Tech Ethics Advocate, The Matrix Institute</p>
+                    <p>Discussing <strong>Social & Professional Issues in IT</strong>, focusing on digital privacy, ethical dilemmas, and why you should think before you click. Passionate about ensuring fairness in the digital age.</p>
+                </article>
+                <article class="speaker">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNDEzOTdhNDUtY2EyMy00YTNmLWE5MjItZmRjMmQzYTRlMGRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Dr. Keanu Loops">
+                    <h3>Dr. Keanu Loops</h3>
+                    <p>Software Engineer & Hollywood Coder</p>
+                    <p>Expert in <strong>Computer Programming 2</strong>. Will guide you through loops, debugging, and mastering Object-Oriented Programming (OOP). With years of coding experience, he makes complex topics fun.</p>
+                </article>
+                <article class="speaker">
+                    <img src="https://i.pinimg.com/736x/a6/a8/a0/a6a8a0ce89bbb6a2050e6403117f1007.jpg" alt="Dr. Linux Cruise">
+                    <h3>Dr. Linux Cruise</h3>
+                    <p>Operating Systems Architect, Tux Technologies</p>
+                    <p>Brings real-world insights into <strong>Operating Systems</strong>, discussing process scheduling, memory management, and kernel design. His work has contributed to major open-source OS advancements.</p>
+                </article>
+                <article class="speaker">
+                    <img src="https://cdn.britannica.com/52/243652-050-FEE0A5E4/Actor-Adam-Sandler-2019.jpg" alt="Prof. Algo Sandler">
+                    <h3>Prof. Algo Sandler</h3>
+                    <p>Algorithm Researcher, Complexity Science Academy</p>
+                    <p>Breaking down <strong>Design & Analysis of Algorithms</strong>, from sorting algorithms to computational complexity. His research influences how modern algorithms are optimized.</p>
+                </article>
+                <article class="speaker">
+                    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2024-01/5/22/asset/89d5e0d60780/sub-buzz-638-1704492435-1.jpg" alt="Dr. SQLena Gomez">
+                    <h3>Dr. SQLena Gomez</h3>
+                    <p>Data Management Lead at CloudQuery</p>
+                    <p>Award-winning expert in <strong>Information Management</strong>, teaching database normalization, SQL optimization, and how to avoid catastrophic DELETE queries. Her optimizations power large-scale cloud systems.</p>
+                </article>
+                <article class="speaker">
+                    <img src="https://cdn.britannica.com/16/206116-050-F75D262C/Meryl-Streep-2018.jpg" alt="Prof. Moral Streep">
+                    <h3>Prof. Moral Streep</h3>
+                    <p>Ethics & Technology Researcher, Digital Rights Institute</p>
+                    <p>Leading discussions on <strong>Professional Ethics for Computer Science</strong>, covering AI bias, ethical hacking, and responsible computing. Dramatically changing the way we view digital ethics.</p>
+                </article>
+                <article class="speaker">
+                    <img src="https://akns-images.eonline.com/eol_images/Entire_Site/20211013/rs_1200x1200-211113145809-1200-taylor-swift-all-too-well-premiere.jpg" alt="Dr. Taylor Bit">
+                    <h3>Dr. Taylor Bit</h3>
+                    <p>Professor of Computational Mathematics at LogiMath University</p>
+                    <p>Breaks down <strong>Discrete Structures 1</strong>, focusing on logic, set theory, and how to win arguments using truth tables. Her approach makes abstract math topics intuitive and engaging.</p>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- Venue Section -->
+        <section id="venue">
+            <h2>Venue</h2>
+            <div class="venue-content">
+                <h3>PUP Bulwagang Balagtas</h3>
+                <p>Polytechnic University of the Philippines, Manila Campus</p>
+                <div class="venue-images">
+                    <img src="https://www.pup.edu.ph/campuslife/images/facilities/campus/balagtas3.jpg" alt="Bulwagang Balagtas Interior View 1">
+                    <img src="https://pupalumniusa.org/wp-content/uploads/2016/10/112th-pup-foundation_11.jpg" alt="Bulwagang Balagtas Interior View 2">
+                </div>
+                <p>A spacious and well-equipped venue, ideal for large conferences and academic discussions. Bulwagang Balagtas has hosted various university events, seminars, and distinguished speakers, providing a comfortable and professional atmosphere.</p>
+                <h3>How to Get There</h3>
+                <p>Located inside the PUP Main Campus, Bulwagang Balagtas is easily accessible from the main gate. Below is a campus map to help you navigate:</p>
+                <div class="venue-map">
+                    <img src="https://scontent.fmnl8-6.fna.fbcdn.net/v/t39.30808-6/477024965_643042161440192_3972231639859703732_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGkKVMSEHxdK1GLY3ukrJICXGYGu4xEC1pcZga7jEQLWvpEfVASfzFtzmP_KcOUTI7yHsp4U7RLgZ4v7FOn1ujE&_nc_ohc=-5NkwdYw3aoQ7kNvgHu-C2O&_nc_oc=AdnvMNUc5oJJv6WWEAAJa-ibxApo41D4Mdo_MNqvj-5siiTiaB3VXJKUhPYxWjehteM&_nc_zt=23&_nc_ht=scontent.fmnl8-6.fna&_nc_gid=O2ce0zcSap-BJSMW22OecA&oh=00_AYF1SZ23MTOvqip76LGrLcVPz8ejL4hOSZG_8YngI1lYpg&oe=67EE1041" alt="PUP Campus Map - Bulwagang Balagtas Location">
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section id="schedule"> 
+            <h2>Schedule</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="schedule-list" class="list-group" role="tablist">
+                        <a class="list-group-item list-group-item-action" href="#day-1" role="tab">Day 1: Monday - April 7</a>
+                        <a class="list-group-item list-group-item-action" href="#day-2" role="tab">Day 2: Tuesday - April 8</a>
+                        <a class="list-group-item list-group-item-action" href="#day-3" role="tab">Day 3: Wednesday - April 9</a>
+                        <a class="list-group-item list-group-item-action" href="#day-4" role="tab">Day 4: Thursday - April 10</a>
+                        <a class="list-group-item list-group-item-action" href="#day-5" role="tab">Day 5: Friday - April 11</a>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div id="schedule-content" class="scrollspy-example" data-bs-spy="scroll" data-bs-target="#schedule-list" data-bs-smooth-scroll="true" tabindex="0">
+                    <!-- Monday -->
+                    <div id="day-1" class="schedule-card" role="tabpanel">
+                        <h4>Day 1: Monday - April 7</h4>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>9:00 AM - 12:00 PM</h5>
+                                <p><strong>COMP 003 - Computer Programming 2</strong> (Speaker: Dr. Keanu Loops)</p>
+                                <ul>
+                                    <li>Waiting Time: 9:00 AM - 9:10 AM</li>
+                                    <li>Opening & Agenda: 9:10 AM - 9:15 AM</li>
+                                    <li>Ice Breaker: 9:15 AM - 9:20 AM</li>
+                                    <li>Core Concepts in OOP: 9:20 AM - 10:05 AM</li>
+                                    <li>Short Break: 10:05 AM - 10:10 AM</li>
+                                    <li>Debugging & Hands-On Coding: 10:10 AM - 10:55 AM</li>
+                                    <li>Mid-Session Break: 10:55 AM - 11:05 AM</li>
+                                    <li>Problem Solving & Q&A: 11:05 AM - 11:45 AM</li>
+                                    <li>Wrap-Up & Recap: 11:45 AM - 12:00 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>1:00 PM - 4:00 PM</h5>
+                                <p><strong>COMP 004 - Discrete Structures 1</strong> (Speaker: Dr. Taylor Bit)</p>
+                                <ul>
+                                    <li>Waiting Time: 1:00 PM - 1:10 PM</li>
+                                    <li>Opening & Agenda: 1:10 PM - 1:15 PM</li>
+                                    <li>Ice Breaker: 1:15 PM - 1:20 PM</li>
+                                    <li>Set Theory & Logic: 1:20 PM - 2:05 PM</li>
+                                    <li>Short Break: 2:05 PM - 2:10 PM</li>
+                                    <li>Proof Techniques: 2:10 PM - 2:55 PM</li>
+                                    <li>Mid-Session Break: 2:55 PM - 3:05 PM</li>
+                                    <li>Quiz & Discussion: 3:05 PM - 3:45 PM</li>
+                                    <li>Wrap-Up & Recap: 3:45 PM - 4:00 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tuesday -->
+                    <div id="day-2" class="schedule-card" role="tabpanel">
+                        <h4>Day 2: Tuesday - April 8</h4>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>9:00 AM - 12:00 PM</h5>
+                                <p><strong>COMP 008 - Data Communications & Networking</strong> (Speaker: Prof. Packet Chan)</p>
+                                <ul>
+                                    <li>Waiting Time: 9:00 AM - 9:10 AM</li>
+                                    <li>Opening & Agenda: 9:10 AM - 9:15 AM</li>
+                                    <li>Ice Breaker: 9:15 AM - 9:20 AM</li>
+                                    <li>Introduction to OSI Model: 9:20 AM - 10:05 AM</li>
+                                    <li>Short Break: 10:05 AM - 10:10 AM</li>
+                                    <li>Hands-On Activity: Packet Routing: 10:10 AM - 10:55 AM</li>
+                                    <li>Mid-Session Break: 10:55 AM - 11:05 AM</li>
+                                    <li>Network Security Challenges: 11:05 AM - 11:45 AM</li>
+                                    <li>Quiz & Discussion: 11:45 AM - 12:00 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>1:00 PM - 4:00 PM</h5>
+                                <p><strong>COSC 203 - Design & Analysis of Algorithms</strong> (Speaker: Prof. Algo Sandler)</p>
+                                <ul>
+                                    <li>Waiting Time: 1:00 PM - 1:10 PM</li>
+                                    <li>Opening & Agenda: 1:10 PM - 1:15 PM</li>
+                                    <li>Ice Breaker: 1:15 PM - 1:20 PM</li>
+                                    <li>Sorting Algorithms Deep Dive: 1:20 PM - 2:05 PM</li>
+                                    <li>Short Break: 2:05 PM - 2:10 PM</li>
+                                    <li>Hands-On: Algorithm Implementation: 2:10 PM - 2:55 PM</li>
+                                    <li>Mid-Session Break: 2:55 PM - 3:05 PM</li>
+                                    <li>Problem Solving & Complexity Analysis: 3:05 PM - 3:45 PM</li>
+                                    <li>Open Q&A: 3:45 PM - 4:00 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Wednesday -->
+                    <div id="day-3" class="schedule-card" role="tabpanel">
+                        <h4>Day 3: Wednesday - April 9</h4>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>9:00 AM - 12:00 PM</h5>
+                                <p><strong>COMP 007 - Operating Systems</strong> (Speaker: Dr. Linux Cruise)</p>
+                                <ul>
+                                    <li>Waiting Time: 9:00 AM - 9:10 AM</li>
+                                    <li>Opening & Agenda: 9:10 AM - 9:15 AM</li>
+                                    <li>Ice Breaker: 9:15 AM - 9:20 AM</li>
+                                    <li>Introduction to Process Scheduling: 9:20 AM - 10:05 AM</li>
+                                    <li>Short Break: 10:05 AM - 10:10 AM</li>
+                                    <li>Memory Management & Paging: 10:10 AM - 10:55 AM</li>
+                                    <li>Mid-Session Break: 10:55 AM - 11:05 AM</li>
+                                    <li>Kernel Design & File Systems: 11:05 AM - 11:45 AM</li>
+                                    <li>Quiz & Discussion: 11:45 AM - 12:00 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>1:00 PM - 4:00 PM</h5>
+                                <p><strong>COMP 020 - Information Assurance and Security</strong> (Speaker: Dr. Phish Evans)</p>
+                                <ul>
+                                    <li>Waiting Time: 1:00 PM - 1:10 PM</li>
+                                    <li>Opening & Agenda: 1:10 PM - 1:15 PM</li>
+                                    <li>Ice Breaker: 1:15 PM - 1:20 PM</li>
+                                    <li>Cryptography & Encryption Techniques: 1:20 PM - 2:05 PM</li>
+                                    <li>Short Break: 2:05 PM - 2:10 PM</li>
+                                    <li>Hands-On: Ethical Hacking: 2:10 PM - 2:55 PM</li>
+                                    <li>Mid-Session Break: 2:55 PM - 3:05 PM</li>
+                                    <li>Cyber Threats & Real-World Case Studies: 3:05 PM - 3:45 PM</li>
+                                    <li>Open Q&A: 3:45 PM - 4:00 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Thursday -->
+                    <div id="day-4" class="schedule-card" role="tabpanel">
+                        <h4>Day 4: Thursday - April 10</h4>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>9:00 AM - 12:00 PM</h5>
+                                <p><strong>COMP 010 - Information Management</strong> (Speaker: Dr. SQLena Gomez)</p>
+                                <ul>
+                                    <li>Waiting Time: 9:00 AM - 9:10 AM</li>
+                                    <li>Opening & Agenda: 9:10 AM - 9:15 AM</li>
+                                    <li>Ice Breaker: 9:15 AM - 9:20 AM</li>
+                                    <li>Database Normalization & SQL Optimization: 9:20 AM - 10:05 AM</li>
+                                    <li>Short Break: 10:05 AM - 10:10 AM</li>
+                                    <li>Hands-On: SQL Queries & Indexing: 10:10 AM - 10:55 AM</li>
+                                    <li>Mid-Session Break: 10:55 AM - 11:05 AM</li>
+                                    <li>Big Data Management Challenges: 11:05 AM - 11:45 AM</li>
+                                    <li>Quiz & Discussion: 11:45 AM - 12:00 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>1:00 PM - 4:00 PM</h5>
+                                <p><strong>COSC 304 - Introduction to Artificial Intelligence</strong> (Speaker: Dr. AI Pacino)</p>
+                                <ul>
+                                    <li>Waiting Time: 1:00 PM - 1:10 PM</li>
+                                    <li>Opening & Agenda: 1:10 PM - 1:15 PM</li>
+                                    <li>Ice Breaker: 1:15 PM - 1:20 PM</li>
+                                    <li>Introduction to Neural Networks: 1:20 PM - 2:05 PM</li>
+                                    <li>Short Break: 2:05 PM - 2:10 PM</li>
+                                    <li>Hands-On: Machine Learning Models: 2:10 PM - 2:55 PM</li>
+                                    <li>Mid-Session Break: 2:55 PM - 3:05 PM</li>
+                                    <li>AI Ethics & Future Trends: 3:05 PM - 3:45 PM</li>
+                                    <li>Quiz & Discussion: 3:45 PM - 4:00 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Friday -->
+                    <div id="day-5" class="schedule-card" role="tabpanel">
+                        <h4>Day 5: Friday - April 11</h4>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>9:00 AM - 12:00 PM</h5>
+                                <p><strong>COSC 30083 - Professional Ethics for Computer Science</strong> (Speaker: Prof. Moral Streep)</p>
+                                <ul>
+                                    <li>Waiting Time: 9:00 AM - 9:10 AM</li>
+                                    <li>Opening & Agenda: 9:10 AM - 9:15 AM</li>
+                                    <li>Ice Breaker: 9:15 AM - 9:20 AM</li>
+                                    <li>AI Bias & Ethical Computing: 9:20 AM - 10:05 AM</li>
+                                    <li>Short Break: 10:05 AM - 10:10 AM</li>
+                                    <li>Case Studies in Tech Ethics: 10:10 AM - 10:55 AM</li>
+                                    <li>Mid-Session Break: 10:55 AM - 11:05 AM</li>
+                                    <li>Interactive Discussion & Q&A: 11:05 AM - 11:45 AM</li>
+                                    <li>Wrap-Up & Recap: 11:45 AM - 12:00 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>1:00 PM - 4:00 PM</h5>
+                                <p><strong>COMP 20333 - Social & Professional Issues in IT</strong> (Speaker: Jennifer Lawgic)</p>
+                                <ul>
+                                    <li>Waiting Time: 1:00 PM - 1:10 PM</li>
+                                    <li>Opening & Agenda: 1:10 PM - 1:15 PM</li>
+                                    <li>Ice Breaker: 1:15 PM - 1:20 PM</li>
+                                    <li>IT Law & Cybersecurity Policies: 1:20 PM - 2:05 PM</li>
+                                    <li>Short Break: 2:05 PM - 2:10 PM</li>
+                                    <li>Ethical Dilemmas in the Tech Industry: 2:10 PM - 2:55 PM</li>
+                                    <li>Mid-Session Break: 2:55 PM - 3:05 PM</li>
+                                    <li>Debate & Panel Discussion: 3:05 PM - 3:45 PM</li>
+                                    <li>Closing Discussion & Feedback: 3:45 PM - 4:00 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>    
+            </div>    
+        </section>
+
+        <!-- Registration Section -->
+        <section id="registration">
+            <h2>Register Now</h2>
+            <div class="registration-container">
+                <!-- Information Table -->
+                <div class="registration-info">
+                    <h3>Schedule Information</h3>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th scope="col">Year Level</th>
+                                <th scope="col">Subjects Covered</th>
+                                <th scope="col">Day & Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>First Year</td>
+                                <td>COMP 003 - Computer Programming 2<br>COMP 004 - Discrete Structures 1</td>
+                                <td>Monday: April 7</td>
+                            </tr>
+                            <tr>
+                                <td>Second Year</td>
+                                <td>COMP 008 - Data Communications and Networking<br>
+                                    COSC 203 - Design and Analysis of Algorithms<br>
+                                    COMP 007 - Operating Systems<br>
+                                    COMP 010 - Information Management</td>
+                                <td>Tuesday: April 8<br>Wednesday: April 9</td>
+                            </tr>
+                            <tr>
+                                <td>Third Year</td>
+                                <td>COMP 020 - Information Assurance and Security<br>
+                                    COSC 304 - Introduction to Artificial Intelligence</td>
+                                <td>Thursday: April 10</td>
+                            </tr>
+                            <tr>
+                                <td>Fourth Year</td>
+                                <td>COSC 30083 - Professional Ethics for Computer Science<br>
+                                    COMP 20333 - Social and Professional Issues in IT</td>
+                                <td>Friday: April 11</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Registration Form -->
+                <div class="registration-form">
+                    <form id="registrationForm" role="form" aria-labelledby="registration-heading">
+                        <div class="form-group" role="group">
+                            <label for="fullName">Full Name:</label>
+                            <input type="text" id="fullName" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="yearLevel">Year Level:</label>
+                            <select id="yearLevel" required>
+                                <option value="" disabled selected>Choose Year Level</option>
+                                <option value="1st Year">1st Year</option>
+                                <option value="2nd Year">2nd Year</option>
+                                <option value="3rd Year">3rd Year</option>
+                                <option value="4th Year">4th Year</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" placeholder="Phone Number" required>
+                        </div> 
+                        <div class="form-group">
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <button type="submit" class="register-btn">Complete Registration</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Registration Success Modal -->
+        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="successModalLabel">Registration Successful!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you for registering! For more updates, check your email.</p>
+                        <p>In the meantime, explore our available resources:</p>
+                        <ul>
+                            <li><a href="#" target="_blank">📚 Study Materials</a></li>
+                            <li><a href="#" target="_blank">🎯 Activities</a></li>
+                            <li><a href="#" target="_blank">📝 Mock Exam</a></li>
+                            <li><a href="#" target="_blank">📅 Meeting Records</a></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<footer role="contentinfo">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="assets/mascot.png" alt="PUP ASCII Mascot">
+        </div>
+        
+        <div class="footer-info">
+            <p>&copy; 2025 PUP ASCII. All Rights Reserved.</p>
+            <div class="contact-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Email: pupasciiofficial@gmail.com | ascii@iskolarngbayan.pup.edu.ph
+                </p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    Phone: (632) 8451-2345
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer-links">
+            <div class="social-links">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/PUPASCII" title="Facebook" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/pup-ascii/" title="LinkedIn" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="legal-links">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- This is for Registration Verification -->
+    <script>
+        document.getElementById("registrationForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            let fullName = document.getElementById("fullName").value.trim();
+            let yearLevel = document.getElementById("yearLevel").value;
+            let phone = document.getElementById("phone").value.trim();
+            let email = document.getElementById("email").value.trim();
+            if (fullName && yearLevel && phone && email) {
+                var modal = new bootstrap.Modal(document.getElementById('successModal'));
+                modal.show();
+                this.reset();
+            } else {
+                alert("Please complete all fields before submitting.");
+            }
+        });
+    </script>
+
+</body>
+</html>
